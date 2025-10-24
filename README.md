@@ -111,7 +111,7 @@ RSpec.configure do |config|
   config.snapshot_relative_subdir = "assets/snapshots" # supports nested paths
   config.snapshot_relative_subdir = nil # stores snapshot files with spec file
 
-  # Defaults to using the awesome_print gem to serialize values for snapshots
+  # Defaults to using the amazing_print gem to serialize values for snapshots
   #
   # Set this value to use a custom snapshot serializer
   config.snapshot_serializer = MyFavoriteSerializer
@@ -121,7 +121,7 @@ end
 ### Custom serializers
 
 By default, values to be stored as snapshots are serialized to human readable
-string form using the [awesome_print](https://github.com/awesome-print/awesome_print) gem.
+string form using the [amazing_print](https://github.com/amazing-print/amazing_print) gem.
 
 You can pass custom serializers to `rspec-snapshot` if you prefer. Pass a serializer class name to the global RSpec config, or to an individual
 matcher as a config option:
